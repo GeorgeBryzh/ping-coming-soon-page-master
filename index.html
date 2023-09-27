@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Frontend Mentor | Ping coming soon page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <head class="coming-soon__head">
+      <div>
+        <a href="#" class="coming-soon__logo-container">
+          <img src="images/logo.svg" class= "coming-soon__logo" "Logo" />
+        </a>
+      </div>
+    </head>
+    <main class="coming-soon">
+      <h1 class="coming-soon__header">
+        We are launching <span class="coming-soon__header-word">soon!</span>
+      </h1>
+      <h2 class="coming-soon__subheader">Subscribe and get notified</h2>
+      <form id="novalidate" class="coming-soon__form">
+        <div class="email-area">
+          <input type="email" class="email" id="email" form="novalidate"
+          placeholder="Your email address..." / >
+          <p class="email-error-message hide">ljjol</p>
+          <button class="coming-soon__submit-button" type="submit">
+            Notify me
+          </button>
+        </div>
+      </form>
+
+      <img
+        src="images/illustration-dashboard.png"
+        alt="Slack's desktop programm window"
+        width="100%"
+      />
+    </main>
+
+    <footer>
+      <div class="coming-soon__footer">
+        <ul class="coming-soon__contacts_list">
+          <li class="coming-soon__contacts_item">
+            <a href="#"
+              ><i class="fa-brands fa-facebook-f" style="color: #4f7df3"></i
+            ></a>
+          </li>
+          <li class="coming-soon__contacts_item">
+            <a href="#">
+              <i class="fa-brands fa-facebook-f" style="color: #4f7df3"></i>
+            </a>
+          </li>
+          <li class="coming-soon__contacts_item">
+            <a href="#">
+              <i class="fa-brands fa-facebook-f" style="color: #4f7df3"></i>
+            </a>
+          </li>
+        </ul>
+        <p>&copy; Copyright Ping. All rights reserved.</p>
+      </div>
+
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </p>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>

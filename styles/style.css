@@ -1,0 +1,182 @@
+/* libre-franklin-300 - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/libre-franklin-v13-latin-300.woff2") format("woff2");
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* libre-franklin-regular - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/libre-franklin-v13-latin-regular.woff2") format("woff2");
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* libre-franklin-600 - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/libre-franklin-v13-latin-600.woff2") format("woff2");
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* libre-franklin-700 - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/libre-franklin-v13-latin-700.woff2") format("woff2");
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+li {
+  list-style: none;
+}
+
+:root {
+  --white-color: hsl(0, 0%, 100%);
+  --gray-color: hsl(0, 0%, 59%);
+  --very-dark-blue-color: hsl(209, 33%, 12%);
+  --pale-blue-color: hsl(223, 100%, 88%);
+  --light-red-color: hsl(354, 100%, 66%);
+  --blue-color: hsl(223, 87%, 63%);
+}
+
+html {
+  width: 100%;
+}
+
+body {
+  font-family: "Libre Franklin", swap;
+  margin: 0 auto;
+  max-width: 100vw;
+  padding: 0 20rem;
+}
+
+head {
+  display: flex;
+  justify-content: center;
+  background: hotpink;
+}
+
+.coming-soon__logo-container {
+  display: flex;
+  justify-content: center;
+}
+.coming-soon__header {
+  font-weight: 300;
+  font-size: 3rem;
+  color: var(--gray-color);
+  text-align: center;
+}
+.coming-soon__header-word {
+  font-weight: 700;
+  color: var(--very-dark-blue-color);
+  text-align: center;
+}
+.coming-soon__header-word {
+  font-weight: 700;
+  color: var(--very-dark-blue-color);
+  text-align: center;
+}
+.coming-soon__subheader {
+  font-weight: 300;
+  text-align: center;
+}
+.coming-soon__submit-button {
+  font-family: "Libre Franklin", swap;
+  font-weight: 300;
+  font-size: 1.1rem;
+  border-radius: 80px;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  display: block;
+  font-weight: 600;
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+  border: none;
+  color: var(--white-color);
+  background-color: #4f7df3;
+  box-shadow: 0px 10px 22px -10px rgb(79, 125, 243);
+  flex-basis: 20%;
+  text-wrap: wrap;
+}
+@media screen and (max-width: 1025px) {
+  .coming-soon__submit-button {
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    width: 100%;
+  }
+}
+.coming-soon__footer {
+  text-align: center;
+}
+.coming-soon__contacts_list {
+  display: flex;
+  padding-left: 0;
+  gap: 1rem;
+  justify-content: center;
+}
+.coming-soon__contacts_item {
+  border: var(--pale-blue-color) 1px solid;
+  border-radius: 50%;
+  padding: 0.5rem 0.5rem;
+}
+
+.email {
+  font-family: "Libre Franklin", swap;
+  font-weight: 300;
+  font-size: 1.1rem;
+  border-radius: 80px;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  display: block;
+  border: var(--pale-blue-color) solid 1px;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  flex-basis: 80%;
+}
+@media screen and (max-width: 1025px) {
+  .email {
+    margin-right: 0;
+    width: 100%;
+  }
+}
+
+.email::-moz-placeholder {
+  color: hsl(223, 100%, 88%);
+}
+
+.email::placeholder {
+  color: hsl(223, 100%, 88%);
+}
+
+.email-area {
+  border: solid;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.email-error-message {
+  order: 1;
+  text-align: left;
+  width: 100%;
+}
+
+.email-label {
+  position: absolute;
+}
+
+.hide {
+  display: none;
+}/*# sourceMappingURL=style.css.map */
